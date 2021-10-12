@@ -12,10 +12,10 @@ import (
 	"strings"
 	"sync/atomic"
 
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/session"
-	"github.com/aws/aws-sdk-go/service/s3"
-	"github.com/aws/aws-sdk-go/service/s3/s3manager"
+	"github.com/aavshr/aws-sdk-go/aws"
+	"github.com/aavshr/aws-sdk-go/aws/session"
+	"github.com/aavshr/aws-sdk-go/service/s3"
+	"github.com/aavshr/aws-sdk-go/service/s3/s3manager"
 )
 
 // progressWriter tracks the download progress of a file from S3 to a file

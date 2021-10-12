@@ -6,8 +6,8 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/service/dynamodb"
+	"github.com/aavshr/aws-sdk-go/aws"
+	"github.com/aavshr/aws-sdk-go/service/dynamodb"
 )
 
 // An UnixTime provides aliasing of time.Time into a type that when marshaled
@@ -445,7 +445,7 @@ func (e *Encoder) encodeList(v reflect.Value, fieldTag tag, elemFn func(dynamodb
 }
 
 func (e *Encoder) encodeScalar(av *dynamodb.AttributeValue, v reflect.Value, fieldTag tag) error {
-	if v.Type() == numberType {
+	if v.Type() == numberType || v.Type() == jsonNumberType {
 		s := v.String()
 		if fieldTag.AsString {
 			av.S = &s

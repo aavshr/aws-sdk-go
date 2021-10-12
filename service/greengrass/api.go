@@ -5,11 +5,11 @@ package greengrass
 import (
 	"fmt"
 
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/awsutil"
-	"github.com/aws/aws-sdk-go/aws/request"
-	"github.com/aws/aws-sdk-go/private/protocol"
-	"github.com/aws/aws-sdk-go/private/protocol/restjson"
+	"github.com/aavshr/aws-sdk-go/aws"
+	"github.com/aavshr/aws-sdk-go/aws/awsutil"
+	"github.com/aavshr/aws-sdk-go/aws/request"
+	"github.com/aavshr/aws-sdk-go/private/protocol"
+	"github.com/aavshr/aws-sdk-go/private/protocol/restjson"
 )
 
 const opAssociateRoleToGroup = "AssociateRoleToGroup"
@@ -948,7 +948,7 @@ func (c *Greengrass) CreateGroupRequest(input *CreateGroupInput) (req *request.R
 //
 // Creates a group. You may provide the initial version of the group or use
 // ''CreateGroupVersion'' at a later time. Tip: You can use the ''gg_group_setup''
-// package (https://github.com/awslabs/aws-greengrass-group-setup) as a library
+// package (https://github.com/aavshrlabs/aws-greengrass-group-setup) as a library
 // or command-line application to create and deploy Greengrass groups.
 //
 // Returns awserr.Error for service API and SDK errors. Use runtime type assertions

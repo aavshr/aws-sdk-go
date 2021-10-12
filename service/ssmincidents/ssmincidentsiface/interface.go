@@ -9,9 +9,9 @@
 package ssmincidentsiface
 
 import (
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/request"
-	"github.com/aws/aws-sdk-go/service/ssmincidents"
+	"github.com/aavshr/aws-sdk-go/aws"
+	"github.com/aavshr/aws-sdk-go/aws/request"
+	"github.com/aavshr/aws-sdk-go/service/ssmincidents"
 )
 
 // SSMIncidentsAPI provides an interface to enable mocking the

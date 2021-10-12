@@ -3,7 +3,7 @@
 package codestarconnections
 
 import (
-	"github.com/aws/aws-sdk-go/private/protocol"
+	"github.com/aavshr/aws-sdk-go/private/protocol"
 )
 
 const (

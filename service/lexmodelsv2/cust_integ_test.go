@@ -6,7 +6,7 @@ package lexmodelsv2
 import (
 	"testing"
 
-	"github.com/aws/aws-sdk-go/awstesting/integration"
+	"github.com/aavshr/aws-sdk-go/awstesting/integration"
 )
 
 func TestInteg_ListBots(t *testing.T) {

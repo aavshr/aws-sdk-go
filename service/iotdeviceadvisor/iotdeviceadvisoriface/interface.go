@@ -9,9 +9,9 @@
 package iotdeviceadvisoriface
 
 import (
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/request"
-	"github.com/aws/aws-sdk-go/service/iotdeviceadvisor"
+	"github.com/aavshr/aws-sdk-go/aws"
+	"github.com/aavshr/aws-sdk-go/aws/request"
+	"github.com/aavshr/aws-sdk-go/service/iotdeviceadvisor"
 )
 
 // IoTDeviceAdvisorAPI provides an interface to enable mocking the

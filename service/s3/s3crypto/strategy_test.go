@@ -8,11 +8,11 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/request"
-	"github.com/aws/aws-sdk-go/awstesting/unit"
-	"github.com/aws/aws-sdk-go/service/s3"
-	"github.com/aws/aws-sdk-go/service/s3/s3crypto"
+	"github.com/aavshr/aws-sdk-go/aws"
+	"github.com/aavshr/aws-sdk-go/aws/request"
+	"github.com/aavshr/aws-sdk-go/awstesting/unit"
+	"github.com/aavshr/aws-sdk-go/service/s3"
+	"github.com/aavshr/aws-sdk-go/service/s3/s3crypto"
 )
 
 func TestHeaderV2SaveStrategy(t *testing.T) {

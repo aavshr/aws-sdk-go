@@ -9,9 +9,9 @@
 package lexmodelbuildingserviceiface
 
 import (
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/request"
-	"github.com/aws/aws-sdk-go/service/lexmodelbuildingservice"
+	"github.com/aavshr/aws-sdk-go/aws"
+	"github.com/aavshr/aws-sdk-go/aws/request"
+	"github.com/aavshr/aws-sdk-go/service/lexmodelbuildingservice"
 )
 
 // LexModelBuildingServiceAPI provides an interface to enable mocking the

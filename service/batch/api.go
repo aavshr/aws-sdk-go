@@ -5,11 +5,11 @@ package batch
 import (
 	"fmt"
 
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/awsutil"
-	"github.com/aws/aws-sdk-go/aws/request"
-	"github.com/aws/aws-sdk-go/private/protocol"
-	"github.com/aws/aws-sdk-go/private/protocol/restjson"
+	"github.com/aavshr/aws-sdk-go/aws"
+	"github.com/aavshr/aws-sdk-go/aws/awsutil"
+	"github.com/aavshr/aws-sdk-go/aws/request"
+	"github.com/aavshr/aws-sdk-go/private/protocol"
+	"github.com/aavshr/aws-sdk-go/private/protocol/restjson"
 )
 
 const opCancelJob = "CancelJob"
@@ -6872,7 +6872,7 @@ type LogConfiguration struct {
 	//
 	// If you have a custom driver that's not listed earlier that you want to work
 	// with the Amazon ECS container agent, you can fork the Amazon ECS container
-	// agent project that's available on GitHub (https://github.com/aws/amazon-ecs-agent)
+	// agent project that's available on GitHub (https://github.com/aavshr/amazon-ecs-agent)
 	// and customize it to work with that driver. We encourage you to submit pull
 	// requests for changes that you want to have included. However, Amazon Web
 	// Services doesn't currently support running modified copies of this software.

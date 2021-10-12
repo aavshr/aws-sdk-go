@@ -6,11 +6,11 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/awsutil"
-	"github.com/aws/aws-sdk-go/aws/request"
-	"github.com/aws/aws-sdk-go/private/protocol"
-	"github.com/aws/aws-sdk-go/private/protocol/jsonrpc"
+	"github.com/aavshr/aws-sdk-go/aws"
+	"github.com/aavshr/aws-sdk-go/aws/awsutil"
+	"github.com/aavshr/aws-sdk-go/aws/request"
+	"github.com/aavshr/aws-sdk-go/private/protocol"
+	"github.com/aavshr/aws-sdk-go/private/protocol/jsonrpc"
 )
 
 const opCreateDataset = "CreateDataset"
@@ -79,7 +79,7 @@ func (c *ForecastService) CreateDatasetRequest(input *CreateDatasetInput) (req *
 // To get a list of all your datasets, use the ListDatasets operation.
 //
 // For example Forecast datasets, see the Amazon Forecast Sample GitHub repository
-// (https://github.com/aws-samples/amazon-forecast-samples).
+// (https://github.com/aavshr-samples/amazon-forecast-samples).
 //
 // The Status of a dataset must be ACTIVE before you can import training data.
 // Use the DescribeDataset operation to get the status.

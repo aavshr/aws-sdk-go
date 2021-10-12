@@ -9,7 +9,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/aws/aws-sdk-go/internal/sdktesting"
+	"github.com/aavshr/aws-sdk-go/internal/sdktesting"
 )
 
 func TestSession_loadCSMConfig(t *testing.T) {
