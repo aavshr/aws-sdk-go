@@ -1,6 +1,7 @@
 package dynamodbattribute
 
 import (
+	"encoding/json"
 	"fmt"
 	"reflect"
 	"strconv"
@@ -496,6 +497,36 @@ func TestDecodeUseNumber(t *testing.T) {
 		t.Errorf("expect %v, got %v", e, a)
 	}
 	n := u["def"].(Number)
+	if e, a := "123", n.String(); e != a {
+		t.Errorf("expect %v, got %v", e, a)
+	}
+	if e, a := true, u["ghi"]; e != a {
+		t.Errorf("expect %v, got %v", e, a)
+	}
+}
+
+func TestDecodeUseJsonNumber(t *testing.T) {
+	u := map[string]interface{}{}
+	av := &dynamodb.AttributeValue{
+		M: map[string]*dynamodb.AttributeValue{
+			"abc": {S: aws.String("value")},
+			"def": {N: aws.String("123")},
+			"ghi": {BOOL: aws.Bool(true)},
+		},
+	}
+
+	decoder := NewDecoder(func(d *Decoder) {
+		d.UseJsonNumber = true
+	})
+	err := decoder.Decode(av, &u)
+	if err != nil {
+		t.Errorf("expect no error, got %v", err)
+	}
+
+	if e, a := "value", u["abc"]; e != a {
+		t.Errorf("expect %v, got %v", e, a)
+	}
+	n := u["def"].(json.Number)
 	if e, a := "123", n.String(); e != a {
 		t.Errorf("expect %v, got %v", e, a)
 	}

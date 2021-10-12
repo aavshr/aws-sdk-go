@@ -1,6 +1,7 @@
 package dynamodbattribute
 
 import (
+	"encoding/json"
 	"math"
 	"reflect"
 	"testing"
@@ -76,6 +77,10 @@ var marshalerScalarInputs = []marshallerTestInput{
 	{
 		input:    Number("12"),
 		expected: &dynamodb.AttributeValue{N: aws.String("12")},
+	},
+	{
+		input:    json.Number("456"),
+		expected: &dynamodb.AttributeValue{N: aws.String("456")},
 	},
 	{
 		input: simpleMarshalStruct{},

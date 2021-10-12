@@ -121,6 +121,9 @@ type Decoder struct {
 	// Number type instead of float64 when the destination type
 	// is interface{}. Similar to encoding/json.Number
 	UseNumber bool
+
+	// Instructs the decoder to use Json Number
+	UseJsonNumber bool
 }
 
 // NewDecoder creates a new Decoder with default configuration. Use
@@ -371,6 +374,10 @@ func (d *Decoder) decodeNumber(n *string, v reflect.Value, fieldTag tag) error {
 }
 
 func (d *Decoder) decodeNumberToInterface(n *string) (interface{}, error) {
+	if d.UseJsonNumber {
+		return json.Number(*n), nil
+	}
+
 	if d.UseNumber {
 		return Number(*n), nil
 	}
