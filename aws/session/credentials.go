@@ -5,15 +5,15 @@ import (
 	"os"
 	"time"
 
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/awserr"
-	"github.com/aws/aws-sdk-go/aws/credentials"
-	"github.com/aws/aws-sdk-go/aws/credentials/processcreds"
-	"github.com/aws/aws-sdk-go/aws/credentials/ssocreds"
-	"github.com/aws/aws-sdk-go/aws/credentials/stscreds"
-	"github.com/aws/aws-sdk-go/aws/defaults"
-	"github.com/aws/aws-sdk-go/aws/request"
-	"github.com/aws/aws-sdk-go/internal/shareddefaults"
+	"github.com/aavshr/aws-sdk-go/aws"
+	"github.com/aavshr/aws-sdk-go/aws/awserr"
+	"github.com/aavshr/aws-sdk-go/aws/credentials"
+	"github.com/aavshr/aws-sdk-go/aws/credentials/processcreds"
+	"github.com/aavshr/aws-sdk-go/aws/credentials/ssocreds"
+	"github.com/aavshr/aws-sdk-go/aws/credentials/stscreds"
+	"github.com/aavshr/aws-sdk-go/aws/defaults"
+	"github.com/aavshr/aws-sdk-go/aws/request"
+	"github.com/aavshr/aws-sdk-go/internal/shareddefaults"
 )
 
 func resolveCredentials(cfg *aws.Config,

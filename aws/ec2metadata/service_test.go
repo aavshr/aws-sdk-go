@@ -12,12 +12,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/awserr"
-	"github.com/aws/aws-sdk-go/aws/ec2metadata"
-	"github.com/aws/aws-sdk-go/aws/request"
-	"github.com/aws/aws-sdk-go/awstesting/unit"
-	"github.com/aws/aws-sdk-go/internal/sdktesting"
+	"github.com/aavshr/aws-sdk-go/aws"
+	"github.com/aavshr/aws-sdk-go/aws/awserr"
+	"github.com/aavshr/aws-sdk-go/aws/ec2metadata"
+	"github.com/aavshr/aws-sdk-go/aws/request"
+	"github.com/aavshr/aws-sdk-go/awstesting/unit"
+	"github.com/aavshr/aws-sdk-go/internal/sdktesting"
 )
 
 func TestClientOverrideDefaultHTTPClientTimeout(t *testing.T) {

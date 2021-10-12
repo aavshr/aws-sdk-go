@@ -12,7 +12,7 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/aws/aws-sdk-go/private/protocol"
+	"github.com/aavshr/aws-sdk-go/private/protocol"
 )
 
 // ErrorInfo represents the error block of a shape's structure

@@ -9,9 +9,9 @@
 package accessanalyzeriface
 
 import (
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/request"
-	"github.com/aws/aws-sdk-go/service/accessanalyzer"
+	"github.com/aavshr/aws-sdk-go/aws"
+	"github.com/aavshr/aws-sdk-go/aws/request"
+	"github.com/aavshr/aws-sdk-go/service/accessanalyzer"
 )
 
 // AccessAnalyzerAPI provides an interface to enable mocking the

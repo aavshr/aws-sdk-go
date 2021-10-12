@@ -5,8 +5,8 @@ package route53recoverycontrolconfig
 import (
 	"time"
 
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/request"
+	"github.com/aavshr/aws-sdk-go/aws"
+	"github.com/aavshr/aws-sdk-go/aws/request"
 )
 
 // WaitUntilClusterCreated uses the AWS Route53 Recovery Control Config API operation

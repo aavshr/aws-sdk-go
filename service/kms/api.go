@@ -6,11 +6,11 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/awsutil"
-	"github.com/aws/aws-sdk-go/aws/request"
-	"github.com/aws/aws-sdk-go/private/protocol"
-	"github.com/aws/aws-sdk-go/private/protocol/jsonrpc"
+	"github.com/aavshr/aws-sdk-go/aws"
+	"github.com/aavshr/aws-sdk-go/aws/awsutil"
+	"github.com/aavshr/aws-sdk-go/aws/request"
+	"github.com/aavshr/aws-sdk-go/private/protocol"
+	"github.com/aavshr/aws-sdk-go/private/protocol/jsonrpc"
 )
 
 const opCancelKeyDeletion = "CancelKeyDeletion"
@@ -1194,7 +1194,7 @@ func (c *KMS) DecryptRequest(input *DecryptInput) (req *request.Request, output 
 // in the Key Management Service Developer Guide.
 //
 // Applications in Amazon Web Services Nitro Enclaves can call this operation
-// by using the Amazon Web Services Nitro Enclaves Development Kit (https://github.com/aws/aws-nitro-enclaves-sdk-c).
+// by using the Amazon Web Services Nitro Enclaves Development Kit (https://github.com/aavshr/aws-nitro-enclaves-sdk-c).
 // For information about the supporting parameters, see How Amazon Web Services
 // Nitro Enclaves use KMS (https://docs.aws.amazon.com/kms/latest/developerguide/services-nitro-enclaves.html)
 // in the Key Management Service Developer Guide.
@@ -2918,7 +2918,7 @@ func (c *KMS) GenerateDataKeyRequest(input *GenerateDataKeyInput) (req *request.
 // in the Key Management Service Developer Guide.
 //
 // Applications in Amazon Web Services Nitro Enclaves can call this operation
-// by using the Amazon Web Services Nitro Enclaves Development Kit (https://github.com/aws/aws-nitro-enclaves-sdk-c).
+// by using the Amazon Web Services Nitro Enclaves Development Kit (https://github.com/aavshr/aws-nitro-enclaves-sdk-c).
 // For information about the supporting parameters, see How Amazon Web Services
 // Nitro Enclaves use KMS (https://docs.aws.amazon.com/kms/latest/developerguide/services-nitro-enclaves.html)
 // in the Key Management Service Developer Guide.
@@ -3650,7 +3650,7 @@ func (c *KMS) GenerateRandomRequest(input *GenerateRandomInput) (req *request.Re
 // specify the custom key store ID.
 //
 // Applications in Amazon Web Services Nitro Enclaves can call this operation
-// by using the Amazon Web Services Nitro Enclaves Development Kit (https://github.com/aws/aws-nitro-enclaves-sdk-c).
+// by using the Amazon Web Services Nitro Enclaves Development Kit (https://github.com/aavshr/aws-nitro-enclaves-sdk-c).
 // For information about the supporting parameters, see How Amazon Web Services
 // Nitro Enclaves use KMS (https://docs.aws.amazon.com/kms/latest/developerguide/services-nitro-enclaves.html)
 // in the Key Management Service Developer Guide.

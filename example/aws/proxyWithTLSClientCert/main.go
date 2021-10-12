@@ -14,9 +14,9 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/session"
-	"github.com/aws/aws-sdk-go/service/s3"
+	"github.com/aavshr/aws-sdk-go/aws"
+	"github.com/aavshr/aws-sdk-go/aws/session"
+	"github.com/aavshr/aws-sdk-go/service/s3"
 	"golang.org/x/net/http2"
 )
 

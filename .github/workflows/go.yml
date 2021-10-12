@@ -111,9 +111,9 @@ jobs:
       uses: actions/checkout@v2
       with:
         fetch-depth: 1
-        path: go/src/github.com/aws/aws-sdk-go
+        path: go/src/github.com/aavshr/aws-sdk-go
 
     - name: Test
       shell: bash
-      working-directory: go/src/github.com/aws/aws-sdk-go
+      working-directory: go/src/github.com/aavshr/aws-sdk-go
       run: make get-deps unit-old-go-race-cover

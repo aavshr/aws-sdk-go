@@ -2,13 +2,14 @@ package dynamodbattribute
 
 import (
 	"encoding/base64"
+	"encoding/json"
 	"fmt"
 	"reflect"
 	"strconv"
 	"time"
 
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/service/dynamodb"
+	"github.com/aavshr/aws-sdk-go/aws"
+	"github.com/aavshr/aws-sdk-go/service/dynamodb"
 )
 
 // An Unmarshaler is an interface to provide custom unmarshaling of
@@ -157,6 +158,7 @@ var byteSliceSlicetype = reflect.TypeOf([][]byte(nil))
 var numberType = reflect.TypeOf(Number(""))
 var timeType = reflect.TypeOf(time.Time{})
 var ptrStringType = reflect.TypeOf(aws.String(""))
+var jsonNumberType = reflect.TypeOf(json.Number(""))
 
 func (d *Decoder) decode(av *dynamodb.AttributeValue, v reflect.Value, fieldTag tag) error {
 	var u Unmarshaler

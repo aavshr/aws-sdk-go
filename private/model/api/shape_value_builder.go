@@ -11,8 +11,8 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/private/protocol"
+	"github.com/aavshr/aws-sdk-go/aws"
+	"github.com/aavshr/aws-sdk-go/private/protocol"
 )
 
 // ShapeValueBuilder provides the logic to build the nested values for a shape.

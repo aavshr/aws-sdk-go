@@ -5,8 +5,8 @@ package codegurureviewer
 import (
 	"time"
 
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/request"
+	"github.com/aavshr/aws-sdk-go/aws"
+	"github.com/aavshr/aws-sdk-go/aws/request"
 )
 
 // WaitUntilCodeReviewCompleted uses the CodeGuruReviewer API operation

@@ -10,9 +10,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/credentials"
-	"github.com/aws/aws-sdk-go/aws/session"
+	"github.com/aavshr/aws-sdk-go/aws"
+	"github.com/aavshr/aws-sdk-go/aws/credentials"
+	"github.com/aavshr/aws-sdk-go/aws/session"
 )
 
 type roundTripFunc func(req *http.Request) *http.Response

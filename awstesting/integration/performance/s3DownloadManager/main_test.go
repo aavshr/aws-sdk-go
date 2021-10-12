@@ -12,11 +12,11 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/aws/aws-sdk-go/awstesting"
-	"github.com/aws/aws-sdk-go/awstesting/integration"
-	"github.com/aws/aws-sdk-go/internal/sdkio"
-	"github.com/aws/aws-sdk-go/service/s3"
-	"github.com/aws/aws-sdk-go/service/s3/s3manager"
+	"github.com/aavshr/aws-sdk-go/awstesting"
+	"github.com/aavshr/aws-sdk-go/awstesting/integration"
+	"github.com/aavshr/aws-sdk-go/internal/sdkio"
+	"github.com/aavshr/aws-sdk-go/service/s3"
+	"github.com/aavshr/aws-sdk-go/service/s3/s3manager"
 )
 
 var benchConfig BenchmarkConfig

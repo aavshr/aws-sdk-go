@@ -5,13 +5,13 @@ import (
 	"os"
 	"testing"
 
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/awserr"
-	"github.com/aws/aws-sdk-go/aws/credentials/ec2rolecreds"
-	"github.com/aws/aws-sdk-go/aws/credentials/endpointcreds"
-	"github.com/aws/aws-sdk-go/aws/request"
-	"github.com/aws/aws-sdk-go/internal/sdktesting"
-	"github.com/aws/aws-sdk-go/internal/shareddefaults"
+	"github.com/aavshr/aws-sdk-go/aws"
+	"github.com/aavshr/aws-sdk-go/aws/awserr"
+	"github.com/aavshr/aws-sdk-go/aws/credentials/ec2rolecreds"
+	"github.com/aavshr/aws-sdk-go/aws/credentials/endpointcreds"
+	"github.com/aavshr/aws-sdk-go/aws/request"
+	"github.com/aavshr/aws-sdk-go/internal/sdktesting"
+	"github.com/aavshr/aws-sdk-go/internal/shareddefaults"
 )
 
 func TestHTTPCredProvider(t *testing.T) {

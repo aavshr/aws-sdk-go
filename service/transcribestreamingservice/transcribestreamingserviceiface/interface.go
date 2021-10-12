@@ -9,9 +9,9 @@
 package transcribestreamingserviceiface
 
 import (
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/request"
-	"github.com/aws/aws-sdk-go/service/transcribestreamingservice"
+	"github.com/aavshr/aws-sdk-go/aws"
+	"github.com/aavshr/aws-sdk-go/aws/request"
+	"github.com/aavshr/aws-sdk-go/service/transcribestreamingservice"
 )
 
 // TranscribeStreamingServiceAPI provides an interface to enable mocking the

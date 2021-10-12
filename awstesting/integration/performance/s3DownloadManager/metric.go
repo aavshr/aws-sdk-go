@@ -12,7 +12,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/aws/aws-sdk-go/aws/request"
+	"github.com/aavshr/aws-sdk-go/aws/request"
 )
 
 type RequestTrace struct {

@@ -6,11 +6,11 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/awsutil"
-	"github.com/aws/aws-sdk-go/aws/request"
-	"github.com/aws/aws-sdk-go/private/protocol"
-	"github.com/aws/aws-sdk-go/private/protocol/jsonrpc"
+	"github.com/aavshr/aws-sdk-go/aws"
+	"github.com/aavshr/aws-sdk-go/aws/awsutil"
+	"github.com/aavshr/aws-sdk-go/aws/request"
+	"github.com/aavshr/aws-sdk-go/private/protocol"
+	"github.com/aavshr/aws-sdk-go/private/protocol/jsonrpc"
 )
 
 const opAddAssociation = "AddAssociation"
@@ -1480,7 +1480,7 @@ func (c *SageMaker) CreateEndpointRequest(input *CreateEndpointInput) (req *requ
 // Use this API to deploy models using Amazon SageMaker hosting services.
 //
 // For an example that calls this method when deploying a model to Amazon SageMaker
-// hosting services, see the Create Endpoint example notebook. (https://github.com/aws/amazon-sagemaker-examples/blob/master/sagemaker-fundamentals/create-endpoint/create_endpoint.ipynb)
+// hosting services, see the Create Endpoint example notebook. (https://github.com/aavshr/amazon-sagemaker-examples/blob/master/sagemaker-fundamentals/create-endpoint/create_endpoint.ipynb)
 //
 // You must not delete an EndpointConfig that is in use by an endpoint that
 // is live or while the UpdateEndpoint or CreateEndpoint operations are being
@@ -71409,7 +71409,7 @@ type OutputConfig struct {
 	//    * INFERENTIA: Compilation for target ml_inf1 uses compiler options passed
 	//    in as a JSON string. For example, "CompilerOptions": "\"--verbose 1 --num-neuroncores
 	//    2 -O2\"". For information about supported compiler options, see Neuron
-	//    Compiler CLI (https://github.com/aws/aws-neuron-sdk/blob/master/docs/neuron-cc/command-line-reference.md).
+	//    Compiler CLI (https://github.com/aavshr/aws-neuron-sdk/blob/master/docs/neuron-cc/command-line-reference.md).
 	//
 	//    * CoreML: Compilation for the CoreML OutputConfig$TargetDevice supports
 	//    the following compiler options: class_labels: Specifies the classification

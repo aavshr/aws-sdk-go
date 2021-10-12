@@ -9,9 +9,9 @@
 package prometheusserviceiface
 
 import (
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/request"
-	"github.com/aws/aws-sdk-go/service/prometheusservice"
+	"github.com/aavshr/aws-sdk-go/aws"
+	"github.com/aavshr/aws-sdk-go/aws/request"
+	"github.com/aavshr/aws-sdk-go/service/prometheusservice"
 )
 
 // PrometheusServiceAPI provides an interface to enable mocking the

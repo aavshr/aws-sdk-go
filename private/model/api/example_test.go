@@ -163,7 +163,7 @@ func buildAPI() *API {
 		ServiceAbbreviation: "FooService",
 	}
 
-	a.BaseImportPath = "github.com/aws/aws-sdk-go/service/"
+	a.BaseImportPath = "github.com/aavshr/aws-sdk-go/service/"
 
 	a.Setup()
 	return a

@@ -5,8 +5,8 @@ package cloudcontrolapi
 import (
 	"time"
 
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/request"
+	"github.com/aavshr/aws-sdk-go/aws"
+	"github.com/aavshr/aws-sdk-go/aws/request"
 )
 
 // WaitUntilResourceRequestSuccess uses the CloudControlApi API operation

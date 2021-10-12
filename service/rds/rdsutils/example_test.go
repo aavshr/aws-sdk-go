@@ -10,9 +10,9 @@ import (
 	"net/url"
 	"os"
 
-	"github.com/aws/aws-sdk-go/aws/credentials/stscreds"
-	"github.com/aws/aws-sdk-go/aws/session"
-	"github.com/aws/aws-sdk-go/service/rds/rdsutils"
+	"github.com/aavshr/aws-sdk-go/aws/credentials/stscreds"
+	"github.com/aavshr/aws-sdk-go/aws/session"
+	"github.com/aavshr/aws-sdk-go/service/rds/rdsutils"
 )
 
 // ExampleConnectionStringBuilder contains usage of assuming a role and using

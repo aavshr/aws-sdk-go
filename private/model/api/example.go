@@ -12,7 +12,7 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/aws/aws-sdk-go/private/util"
+	"github.com/aavshr/aws-sdk-go/private/util"
 )
 
 type Examples map[string][]Example

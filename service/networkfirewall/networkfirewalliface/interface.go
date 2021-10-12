@@ -9,9 +9,9 @@
 package networkfirewalliface
 
 import (
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/request"
-	"github.com/aws/aws-sdk-go/service/networkfirewall"
+	"github.com/aavshr/aws-sdk-go/aws"
+	"github.com/aavshr/aws-sdk-go/aws/request"
+	"github.com/aavshr/aws-sdk-go/service/networkfirewall"
 )
 
 // NetworkFirewallAPI provides an interface to enable mocking the

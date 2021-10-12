@@ -13,7 +13,7 @@
     "CreateDeviceDefinitionVersion" : "Creates a version of a device definition that has already been defined.",
     "CreateFunctionDefinition" : "Creates a Lambda function definition which contains a list of Lambda functions and their configurations to be used in a group. You can create an initial version of the definition by providing a list of Lambda functions and their configurations now, or use ''CreateFunctionDefinitionVersion'' later.",
     "CreateFunctionDefinitionVersion" : "Creates a version of a Lambda function definition that has already been defined.",
-    "CreateGroup" : "Creates a group. You may provide the initial version of the group or use ''CreateGroupVersion'' at a later time. Tip: You can use the ''gg_group_setup'' package (https://github.com/awslabs/aws-greengrass-group-setup) as a library or command-line application to create and deploy Greengrass groups.",
+    "CreateGroup" : "Creates a group. You may provide the initial version of the group or use ''CreateGroupVersion'' at a later time. Tip: You can use the ''gg_group_setup'' package (https://github.com/aavshrlabs/aws-greengrass-group-setup) as a library or command-line application to create and deploy Greengrass groups.",
     "CreateGroupCertificateAuthority" : "Creates a CA for the group. If a CA already exists, it will rotate the existing CA.",
     "CreateGroupVersion" : "Creates a version of a group which has already been defined.",
     "CreateLoggerDefinition" : "Creates a logger definition. You may provide the initial version of the logger definition now or use ''CreateLoggerDefinitionVersion'' at a later time.",

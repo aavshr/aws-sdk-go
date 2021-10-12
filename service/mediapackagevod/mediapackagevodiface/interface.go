@@ -9,9 +9,9 @@
 package mediapackagevodiface
 
 import (
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/request"
-	"github.com/aws/aws-sdk-go/service/mediapackagevod"
+	"github.com/aavshr/aws-sdk-go/aws"
+	"github.com/aavshr/aws-sdk-go/aws/request"
+	"github.com/aavshr/aws-sdk-go/service/mediapackagevod"
 )
 
 // MediaPackageVodAPI provides an interface to enable mocking the

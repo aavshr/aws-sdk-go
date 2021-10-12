@@ -11,17 +11,17 @@ import (
 	"testing"
 	"time"
 
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/awserr"
-	"github.com/aws/aws-sdk-go/aws/client"
-	"github.com/aws/aws-sdk-go/aws/client/metadata"
-	"github.com/aws/aws-sdk-go/aws/corehandlers"
-	"github.com/aws/aws-sdk-go/aws/credentials"
-	"github.com/aws/aws-sdk-go/aws/request"
-	"github.com/aws/aws-sdk-go/awstesting"
-	"github.com/aws/aws-sdk-go/awstesting/unit"
-	"github.com/aws/aws-sdk-go/internal/sdktesting"
-	"github.com/aws/aws-sdk-go/service/s3"
+	"github.com/aavshr/aws-sdk-go/aws"
+	"github.com/aavshr/aws-sdk-go/aws/awserr"
+	"github.com/aavshr/aws-sdk-go/aws/client"
+	"github.com/aavshr/aws-sdk-go/aws/client/metadata"
+	"github.com/aavshr/aws-sdk-go/aws/corehandlers"
+	"github.com/aavshr/aws-sdk-go/aws/credentials"
+	"github.com/aavshr/aws-sdk-go/aws/request"
+	"github.com/aavshr/aws-sdk-go/awstesting"
+	"github.com/aavshr/aws-sdk-go/awstesting/unit"
+	"github.com/aavshr/aws-sdk-go/internal/sdktesting"
+	"github.com/aavshr/aws-sdk-go/service/s3"
 )
 
 func TestValidateEndpointHandler(t *testing.T) {

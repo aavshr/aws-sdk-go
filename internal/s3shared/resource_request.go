@@ -3,10 +3,10 @@ package s3shared
 import (
 	"strings"
 
-	"github.com/aws/aws-sdk-go/aws"
-	awsarn "github.com/aws/aws-sdk-go/aws/arn"
-	"github.com/aws/aws-sdk-go/aws/request"
-	"github.com/aws/aws-sdk-go/internal/s3shared/arn"
+	"github.com/aavshr/aws-sdk-go/aws"
+	awsarn "github.com/aavshr/aws-sdk-go/aws/arn"
+	"github.com/aavshr/aws-sdk-go/aws/request"
+	"github.com/aavshr/aws-sdk-go/internal/s3shared/arn"
 )
 
 // ResourceRequest represents the request and arn resource

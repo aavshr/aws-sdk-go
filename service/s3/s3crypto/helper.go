@@ -6,7 +6,7 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/aws/aws-sdk-go/aws/request"
+	"github.com/aavshr/aws-sdk-go/aws/request"
 )
 
 func getWriterStore(req *request.Request, path string, useTempFile bool) (io.ReadWriteSeeker, error) {

@@ -9,7 +9,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/aws/aws-sdk-go/aws/awsutil"
+	"github.com/aavshr/aws-sdk-go/aws/awsutil"
 )
 
 func ExampleCopy() {

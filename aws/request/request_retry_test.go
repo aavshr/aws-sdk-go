@@ -10,7 +10,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/aws/aws-sdk-go/aws/awserr"
+	"github.com/aavshr/aws-sdk-go/aws/awserr"
 )
 
 func newRequest(t *testing.T, url string) *http.Request {
